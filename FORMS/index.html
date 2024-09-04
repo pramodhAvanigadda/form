@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marklist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <b> <legend>PERSONAL DETAILS</legend></b>
+        <div>
+          <label for="name"> NAME </label>
+          <input id="name" />
+        </div>
+        <div>
+          <label for="NUMBER">REGISTRATION NUMBER </label>
+          <input id="NUMBER" />
+        </div>
+        <div>
+          <label>PHONE</label>
+          <input type="number" />
+        </div>
+        <div>
+          <label>EMAIL</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label>LANGUAGE</label>
+          <input type="checkbox" />
+          <label>TELUGU</label>
+          <input type="checkbox" />
+          <label>HINDI</label>
+          <input type="checkbox" />
+          <label>ENGLISH</label>
+        </div>
+        <div>
+          <label>DOB</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label>IMAGE</label>
+          <input type="image" />
+        </div>
+        <div>
+          <label>FAV COLOR</label>
+          <input list="color" type="color" />
+          <datalist id="color">
+            <option>red</option>
+            <option>blue</option>
+            <option>green</option>
+            <option>yellow</option>
+          </datalist>
+        </div>
+        <div>
+          <label>STATE</label>
+          <select>
+            <optgroup label="SOUTH INDIA">
+              <option>ANDHRA PRADESH</option>
+              <option>TELANGANA</option>
+              <option>KERALA</option>
+              <option>KARNATAKA</option>
+              <option>MAHARASTRA</option>
+              <option>ORISSA</option>
+            </optgroup>
+            <optgroup label="NORTH INDIA">
+              <option>MADYA PRADESH</option>
+              <option>RAJASTHAN</option>
+              <option>GUJARAT</option>
+              <option>JAMMU & KASHMIR</option>
+              <option>HARYANA</option>
+              <option>UTTAR PRADESH</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label>GENDER</label>
+          <input type="radio" name="GENDER" />
+          <label>MALE</label>
+          <input type="radio" name="GENDER" />
+          <label>FEMALE</label>
+        </div>
+        <div>
+          <label>FILE</label>
+          <input type="file" multiple />
+        </div>
+        <div>
+          <label> ADDRESS</label>
+          <textarea></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <b> <legend>ACADAMICS</legend></b>
+        <div>
+          <label for="telInput">TELUGU</label>
+          <input id="telInput" />
+        </div>
+        <div>
+          <label for="engInput">ENGLISH</label>
+          <input id="engInput" />
+        </div>
+        <div>
+          <label for="hinInput">HINDI</label>
+          <input id="hinInput" />
+        </div>
+        <div>
+          <label for="sciInput">SCIENCE</label>
+          <input id="sciInput" />
+        </div>
+        <div>
+          <label for="matInput">MATHS</label>
+          <input id="matInput" />
+        </div>
+        <div>
+          <label for="socInput">SOCIAL</label>
+          <input id="socInput" />
+        </div>
+        <div>
+          <button type="button">calculate</button>
+          <button type="reset">reset</button>
+          <button>submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
